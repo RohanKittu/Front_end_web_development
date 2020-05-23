@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>signup page</title>
+    </head>
+    <body>
+        <h1>Course signUp page</h1>
+        <p>Please Note First Name ,Last Name ,Email Id and Password are required</p>
+        <form action="https://www.udemy.com/course/python-and-django-full-stack-web-developer-bootcamp/learn/lecture/6550136#overview" method="GET">
+            <!--First_name and Last name-->
+            <label for="f_name">First Name</label> 
+            <input id="f_name" type="text" name="first_name" value="" placeholder="First_name" required> 
+            <label for="l_name">Last Name</label>
+            <input id="l_name" type="text" name="last_name" value="" placeholder="Last name" required>
+            <br>
+            <br>
+            <!--Email id and password-->
+            <label for="email">Email Id</label>
+            <input id="email" type="email" name="email_id" value="" placeholder="name@gmail.com" required>
+            <label for="password">Password</label>
+            <input id="password" type="password" name="password" value="" placeholder="" required>
+            <br>
+            <br>
+            <!--checking age-->
+            <p>Are you over the age of 18 ?</p>
+            <label for="yes">Yes</label>
+            <input type="radio" name="link" value="yes" id="yes">
+            <label for="no">No</label>
+            <input type="radio" name="link" value="no" id="no">
+            <br>
+            <br>
+            <!--payment method-->
+            <label for="payment_method">Do you have Credit card or PayPal?</label>
+            <br>
+            <br>
+            <select name="payment_method" id="payment_method">
+                <option value="credit card">Credit Card</option>
+                <option value="PayPal">PayPal</option>
+            </select>
+            <br>
+            <br>
+            <!--Submit button-->
+            <input type="submit">
+        </form>
+
+    </body>
+</html>

@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>level two labels</title>
+    </head>
+    <body>
+        <h1>Hotel feed back form</h1>
+        <form method="GET">
+            <h2>Are you for inside US or outide US ?</h2>
+            <!--if we give the same name to the both radio button ,that means the two radio button has got linked ,which means we can select only one button-->
+            <label for="lab1">Inside US</label>
+            <!--radio button-->
+            <input type="radio" name = "link"  value =  "inside" id="lab1">
+            <label for="lab2">Outside US</label>
+            <input type="radio" name="link" value="outside" id="lab2">
+
+            <h2>So how was you visit?</h2>
+            <!--drop down-->
+            <select name="stars" id="">
+                <option value="bad">1</option>
+                <option value="average">2</option>
+                <option value="good">3</option>
+            </select>
+
+            <!--submit button-->
+            <input type="submit" name="" value="Submit">
+        </form>
+        <h2>Feed back please</h2>
+        <!--text area for paragraph of text-->
+        <textarea name="input feed back" id="" cols="100" rows="10"></textarea>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <h1>labels for forms</h1>
+    </head>
+    <body>
+        <form action="https://www.google.com/">
+            <!--creating labels-->
+            <!--creating labels individually-->
+            <label>
+                <!--In label we can straight away write the text inside the label tag-->
+                enter text
+                <input type="text">
+            </label>
+            <label>
+                Enter text2
+                <input type="text" placeholder="required" required>
+            </label>
+
+            <!--creating labels by for-->
+            <!--This is the best way to do it.-->
+            <label for="input_text">Enter Input</label>
+            <!--id is the unique value for a html tag-->
+            <input id="input_text" type="text">
+            <input type="submit",value = "Enter">
+        </form>
+    </body>
+</html>
